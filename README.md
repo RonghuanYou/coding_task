@@ -26,14 +26,12 @@ SAZuXPGUrfbcn5UA
 4sMM2LxV07bPJzwf
 fbcn5UAVanZf6UtG
 
-<<<<<<< HEAD
 $ ./most_active_cookie.py cookie_log.csv -d 2018-12-10
 There is no active cookie in the given date
 
 $ ./most_active_cookie.py cookie_log.csv -d 2018-12-100
 ValueError: Incorrect date format, valid format should be YYYY-MM-DD
+
+$ ./most_active_cookie.py cookie -d 2018-12-8
+Error: CSV file cookie not found.
 ```
-=======
-$ ./most_active_cookie cookie_log.csv -d 2018-12-07
-```
->>>>>>> 338f085da52720b1fe26f256d296d36924528914
