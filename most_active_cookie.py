@@ -46,7 +46,7 @@ def open_file(csv_file: str, input_date: str) -> None:
     if cookies_frequency:
         print_most_active_cookie(cookies_frequency)
     else:
-        print("There is no cookie")
+        print("There is no active cookie in the given date")
 
 
 def print_most_active_cookie(cookies_frequency: dict) -> None:
